@@ -84,7 +84,9 @@ struct snd_compr_tstamp;
 union snd_codec_options;
 struct snd_compr_metadata;
 
+#ifdef SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM
 #define ENABLE_EXTENDED_COMPRESS_FORMAT
+#endif
 
 #ifdef ENABLE_EXTENDED_COMPRESS_FORMAT
 union snd_codec_options;
