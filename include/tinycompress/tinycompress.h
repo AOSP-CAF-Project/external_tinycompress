@@ -84,6 +84,8 @@ struct snd_compr_tstamp;
 union snd_codec_options;
 struct snd_compr_metadata;
 
+#define ENABLE_EXTENDED_COMPRESS_FORMAT
+
 #ifdef ENABLE_EXTENDED_COMPRESS_FORMAT
 union snd_codec_options;
 struct snd_compr_metadata;
